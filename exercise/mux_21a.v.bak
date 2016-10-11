@@ -1,0 +1,9 @@
+module mux_21a(a,b,s,y);
+input a,b,s;
+output y;
+always@(a,b,s)
+begin
+if (s) y=a;
+else y=b;
+end 
+endmodule
